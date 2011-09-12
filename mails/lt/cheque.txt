@@ -1,0 +1,20 @@
+Sveiki {firstname} {lastname},
+
+Jūsų užsakymas #{id_order} yra priimtas ir bus išsųstas, kai tik gausime apmokėjimą.
+
+Primename, kad Jūs pasirinkote mokėjimą čekiu. Prašome atsiųsti čekį su šia informacija:
+
+- suma {total_paid}
+
+- čekio gavėjas {cheque_name}
+
+- adresas {cheque_address}
+
+Jūs galite peržiūrėti šio užsakymo informaciją ir atsisiųsti sąskaitą apsilankę praduotuvės poskyryje &quot;Mano užsakymai&quot; kurį rasite skyriuje &quot;Mano paskyra&quot;.
+
+Dėkojame, kad perkate {shop_name}.
+
+{shop_name} - {shop_url}
+
+
+{shop_url} sukurta su PrestaShop&trade;

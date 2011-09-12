@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{moneybookers}prestashop>moneybookers-currency-error_6484c945379d81c37ac734c9768605cf'] = 'Mokėjimų šia valiuta per Moneybookers atlikti negalima, pasirinkite kitą valiutą';
+$_MODULE['<{moneybookers}prestashop>moneybookers-form_25065e3ef9274f9b0e3088340f6d79e6'] = 'Mokėti kreditine kortele';
+$_MODULE['<{moneybookers}prestashop>moneybookers-form_2cc66b7b26e92326afa76a021442330e'] = 'Mokėti Moneybookers eWallets';
+$_MODULE['<{moneybookers}prestashop>moneybookers_6861a58e2be4956b3f2fd6420fe6c28c'] = 'Moneybookers';
+$_MODULE['<{moneybookers}prestashop>moneybookers_07bf11ff6eaf27b8aa91f42d7fb4200c'] = 'Priimti mokėjimus per Moneybookers';
+$_MODULE['<{moneybookers}prestashop>moneybookers_fa214007826415a21a8456e3e09f999d'] = 'Ar tikrai norite šalinti savo duomenis?';
+$_MODULE['<{moneybookers}prestashop>moneybookers_bd65b912e0152f62629b6afeaa8398f4'] = 'Negalima susisiekti su aktyvavimo serveriu, bandykite vėliau';
+$_MODULE['<{moneybookers}prestashop>moneybookers_c9f3e0397a1b070092ab4f0bf046fd4a'] = 'Paskyros patvirtinimas nepavyko, greičiausiai klaidingas jūsų el. pašto adresas';
+$_MODULE['<{moneybookers}prestashop>moneybookers_214186253fc29d921411c68ac88d942e'] = 'Slaptažodžio patvirtinimas nepavyko, viršytas bandymų kiekis ( 3 per valandą)';
+$_MODULE['<{moneybookers}prestashop>moneybookers_ccd8489089bfa25fffbc82674bf6b8b5'] = 'Slaptažodžio patvirtinimas nepavyko, greičiausiai jis yra klaidingas';
+$_MODULE['<{moneybookers}prestashop>moneybookers_8e6b1c8d8d05890a5073b598c7b5dc54'] = 'Aktyvavimas pavyko, slaptažodis yra geras';
+$_MODULE['<{moneybookers}prestashop>moneybookers_86ea4c04e5385412960348c17da0d549'] = 'Atidaroma jūsų Moneybookers paskyra';
+$_MODULE['<{moneybookers}prestashop>moneybookers_c3b308778c00b817007364e347123b86'] = 'Atidaryti Moneybookers paskyra:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_6ad110d7504947dafa5c737284fe9f00'] = 'Šis modulis leidžia priimti mokėjimus per Moneybookers.';
+$_MODULE['<{moneybookers}prestashop>moneybookers_a9dd80641753cafc9c967e317ba92a28'] = 'Apie Moneybookers';
+$_MODULE['<{moneybookers}prestashop>moneybookers_b0b7f63af58ca5585787aa46a972bb8e'] = 'Moneybookers - viena didžiausių Europoje elektroninių mokėjimų sistemų ir pasaulinių eWallet tiekėjų, turinčių daugiau nei 11 mln. vartotojų. Paprasta eWallet sistema leidžia klientui patogiai ir saugiai atlikti mokėjimą intenetu, neatskleidžiant savo asmeninės finansinės informacijos, taip pat nebrangiai siųsti ir gauti pinigus pasinaudojus tik el. paštu.  ';
+$_MODULE['<{moneybookers}prestashop>moneybookers_e545ce3f77ed798605ba3dc853e7e040'] = 'Moneybookers pasaulinis mokėjimų tinklas vienu diegimu sukuria daugiau nei 80 vietinių mokėjimų parinkčių daugiau nei 200-ai šalių. Šiuo metu daugiau nei 60,000 prekybininkų naudoja Moneybooker mokėjimo paslaugas, tarpe jų tokie tarptautiniai partneriai kaip Bay, Skype ir Thomas Cook';
+$_MODULE['<{moneybookers}prestashop>moneybookers_04a0e2e14bfc47151f158db3c1b03661'] = 'Moneybookers buvo įkurta 2001 m. Londone ir yra kontroliuojama Jungtinės Karalystės Finasinių paslaugų kontrolės organų';
+$_MODULE['<{moneybookers}prestashop>moneybookers_f4f70727dc34561dfde1a3c529b6205c'] = 'Nustatymai';
+$_MODULE['<{moneybookers}prestashop>moneybookers_dcdd329440459d191d3caa192028ebef'] = 'Apie Moneybookers aktyvavimą ir konfigūracija Prestashop skaitykite Vadove ';
+$_MODULE['<{moneybookers}prestashop>moneybookers_cb7a0a41ef8d2fb632ae4a56d04fbc7f'] = 'Jūsų el. pašto adresas:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_c5107a07a5be59f893a4184e09cecc21'] = 'Jūsų slaptažodis:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_c3592b2bb3405f766f58dac4378306bd'] = 'Puslapis, rodomas po sėkmingo mokėjimo:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_87337b7475d1287ff99aaa30446b3bb7'] = 'Puslapis, rodomas poo mokėjimo atšaukimo:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_ab67f0d68dd6f5cb407e04abacd06120'] = 'Slėpti prisijungimo formą Moneybookers puslapyje';
+$_MODULE['<{moneybookers}prestashop>moneybookers_3fe2d645c0ebf657db2187f1c2a7f7fa'] = 'Pasirinkite logotipą kreditinėms kortelėms:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_e92a7b744a874718698158fdacda82b6'] = 'Pasilinkite logotipą eWallet\'ui:';
+$_MODULE['<{moneybookers}prestashop>moneybookers_dd162344994f615f7ed7d99169e77b22'] = 'Išsaugoti nustatymus ir patvirtinti mano paskyrą';

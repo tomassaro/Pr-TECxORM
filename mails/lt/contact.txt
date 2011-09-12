@@ -1,0 +1,12 @@
+Sveiki {firstname} {lastname},
+
+Jūs gavote žinutę iš kliento.
+
+
+El. paštas: {email}
+
+Žinutė: {message}
+
+
+
+{shop_url}

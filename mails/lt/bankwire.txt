@@ -1,0 +1,24 @@
+Sveiki {firstname} {lastname},
+
+Jūsų užsakymas #{id_order} yra priimtas. Jūsų užsakymas bus išsiųstas, kai tik gausime apmokėjimą.
+
+rimename, kad jūs pasirinkote bankinį pavedimą. Prašome apmokėti į šią sąskaitą:
+
+Gavėjo pavadinimas {bankwire_owner}
+
+Bankas {bankwire_bankname}
+
+Banko kodas {bankwire_bankcode}
+
+Mokėjimo paskirtis: {bankwire_subject}
+
+Pervedama suma {total_paid}
+
+Jūs galite peržiūrėti šio užsakymo informaciją ir atsisiųsti sąskaitą apsilankę praduotuvės poskyryje &quot;Mano užsakymai&quot; kurį rasite skyriuje &quot;Mano paskyra&quot;.
+
+Dėkojame, kad perkate {shop_name}.
+
+{shop_name} - {shop_url}
+
+
+{shop_url} sukurta su PrestaShop&trade;

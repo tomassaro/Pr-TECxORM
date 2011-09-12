@@ -1,0 +1,12 @@
+Sveiki {firstname} {lastname},
+
+Pranešame apie sugeneruotą kredito kvitą Jūsų vardu pagal užsakymą # {id_order}.
+
+Jūs galite peržiūrėti kredito kvitus ir atsispausdinti sąskaitą poskyryje "Mano kredito kvitai" pasirinkę parduotuvėje "Mano paskyra" .
+
+Dėkojame, kad perkate pas mus.
+
+{shop_name} - {shop_url}
+
+
+{shop_url} powered by PrestaShop&amp;trade;

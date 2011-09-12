@@ -1,0 +1,20 @@
+Sveiki {firstname} {lastname},
+
+Jūs sėkmingai užsiregsitravote parduotuvėje {shop_name}.
+
+Jūsų prisijungimo duomenys:
+
+El. paštas: {email}
+Slaptažodis: {passwd}
+ 
+Dabar galite užsisakyti prekes mūsų parduotuvėje: {shop_url}
+
+Saugumo patarimai
+
+* Saugokite savo paskyros prisijungimo duomenis.
+* Niekam neatskleiskite prisijungimo duomenų.
+* Reguliariai keiskite slaptažodį.
+* Jei įtariate, kad kažkas naudoja jūsų paskyrą neteisėtai, prašome mums iš karto pranešti.
+
+
+{shop_url} sukurta su PrestaShop&reg;
