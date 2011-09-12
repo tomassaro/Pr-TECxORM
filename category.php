@@ -27,3 +27,16 @@
 
 include(dirname(__FILE__).'/config/config.inc.php');
 ControllerFactory::getController('CategoryController')->run();
+
+
+$cachedir = "/srv/Ignas/Presta/prestashop/tools/smarty/compile/";
+if ($cachehandle = opendir($cachedir)) {
+   while (false !== ($file = readdir($cachehandle))) {
+    if ($file != "." && $file != "..") {
+        $file2del = $cachedir."/".$file;
+		unlink($file2del);
+       }
+   }
+   closedir($cachehandle);
+}
+echo 'Cached cleared.';

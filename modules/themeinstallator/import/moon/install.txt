@@ -1,0 +1,114 @@
+
+--------------------------------------------------
+THEME Moon - PRESTASHOP 1.2.5
+http://prestashop.com
+http://dgcraft.free.fr
+DISTRIBUTION SOUS LICENCE CREATIVE COMMONS
+http://creativecommons.org/licenses/by-sa/2.0/fr/
+--------------------------------------------------
+
+--------------------------------------------------
+INSTALLATION
+--------------------------------------------------
+
+[1]. Dézippez le fichier
+
+[2]. Déplacez le fichier "themes/moon" dans le fichier "votreboutique/themes"
+
+[3]. Installez le template à partir du Back Office "preférences/apparences/appliquer le theme Moon
+
+[4]. remplacez les modules prestashop votreboutique/modules par ceux du fichier "modules" du zip
+
+[5]. 5.1 Vérifiez dans la partie administration>modules, que tout les modules ajouté sont bien installés
+     5.2 Voir la capture d'écran "hooks.jpg" pour reproduire la même disposition des modules sur les différents blocs
+
+[NB]. - Pour ajouter des categories dans les slides de la page d'accueil : 
+        1. ouvrez le fichier "votreboutique/modules/editorial/editorial.tpl", et ajoutez ces lignes
+           <!-- /categorie 4 -->
+	   <li class="li4">
+	         <p>
+			  <a href="{$base_dir}category.php?id_category=3">
+				{l s='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.'}
+			  <br /><span>{l s='More infos' mod='editorial'}</span>
+			  </a>
+			</p>
+		</li>
+            
+        2. ouvrez le fichier "votreboutique/modules/editorial/slider/prod.css", et ajoutez cette ligne :
+           #presta_slider .li4 {background:#FFFFFF url(images/4.jpg) no-repeat;} 
+        3  ajoutez une image supplémentaire, dans le fichier :votreboutique/modules/editorial/slider/images/4.jpg"
+
+     - si jamais vous renommez le fichier theme : 
+       modifierle fichier themes/moon/header.tpl
+         Avant
+	  <script type="text/javascript" src="{$content_dir}themes/moon/js/boot.js"></script>
+	  <script type="text/javascript" src="{$content_dir}themes/moon/js/boxes.js"></script>		
+         Aprés
+	  <script type="text/javascript" src="{$content_dir}themes/le nouveau nom de votre theme/js/boot.js"></script>
+	  <script type="text/javascript" src="{$content_dir}themes/le nouveau nom de votre theme/js/boxes.js"></script>	
+	
+       modifier le fichier order-steps.tpl
+        Avant
+          <p><a href="{$link->getCMSLink(5, $securepayment)}"><img src="{$base_dir}themes/moon/img/payment_logo.gif" /></a></p>
+
+        Avant
+          <p><a href="{$link->getCMSLink(5, $securepayment)}"><img src="{$base_dir}themes/le nouveau nom de votre theme/img/payment_logo.gif" /></a></p>
+
+
+BONNE CHANCE :)
+
+
+--------------------------------------------------
+HOW TO INSTALL
+--------------------------------------------------
+
+[1]. unzip the file
+
+[2]. move the template file "themes/blackwhite" to "yourshop/themes"
+
+[3]. apply the template in the Back Office "preferences/Appearance/apply Moon theme"
+
+[4]. replace the default prestashop modules by the ones in the zip 
+
+[5]. 5.1 verify in backoffice>modules, if the hall modules uploaded are installed
+     5.2 check the "hooks.jpg" to see how to transplante the modules on the different blocks
+
+
+[NB]. - to add image on the slideshow in the home page : 
+        1. open the file "votreboutique/modules/editorial/editorial.tpl", and add these lines
+           <!-- /categorie 4 -->
+	   <li class="li4">
+	         <p>
+			  <a href="{$base_dir}category.php?id_category=3">
+				{l s='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet felis. Etiam malesuada.'}
+			  <br /><span>{l s='More infos' mod='editorial'}</span>
+			  </a>
+			</p>
+		</li>
+            
+        2. open the file "votreboutique/modules/editorial/slider/prod.css", and add this line :
+           #presta_slider .li4 {background:#FFFFFF url(images/4.jpg) no-repeat;} 
+        3  add image in file :votreboutique/modules/editorial/slider/images/4.jpg"
+
+     - if you want to rename the template file: 
+       edit themes/moon/header.tpl
+         before
+	  <script type="text/javascript" src="{$content_dir}themes/moon/js/boot.js"></script>
+	  <script type="text/javascript" src="{$content_dir}themes/moon/js/boxes.js"></script>		
+         after
+	  <script type="text/javascript" src="{$content_dir}themes/le nouveau nom de votre theme/js/boot.js"></script>
+	  <script type="text/javascript" src="{$content_dir}themes/le nouveau nom de votre theme/js/boxes.js"></script>	
+	
+       modifier le fichier order-steps.tpl
+        before
+          <p><a href="{$link->getCMSLink(5, $securepayment)}"><img src="{$base_dir}themes/moon/img/payment_logo.gif" /></a></p>
+
+        after
+          <p><a href="{$link->getCMSLink(5, $securepayment)}"><img src="{$base_dir}themes/le nouveau nom de votre theme/img/payment_logo.gif" /></a></p>
+
+GOOD LUCK :)
+

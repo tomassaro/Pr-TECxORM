@@ -26,6 +26,9 @@
 
 		{if !$content_only}
 				</div>
+                                				<div id="header_right">
+					{$HOOK_TOP}
+				</div>
 
 <!-- Right -->
 				<div id="right_column" class="column">

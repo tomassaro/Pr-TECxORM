@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>smartydebug</name>
+	<displayName>Smarty Template Debug (with FireBugâ¢ Support)</displayName>
+	<version>1.4.0.17</version>
+	<description>Debug module or theme templates by enabling the Smarty debug console.</description>
+	<author>eCartService.net</author>
+	<tab>developer_tools</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

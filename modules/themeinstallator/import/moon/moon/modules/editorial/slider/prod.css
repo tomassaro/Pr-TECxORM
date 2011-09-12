@@ -1,0 +1,23 @@
+/* typo */
+div.presta_slider {width:835px; margin:2em auto}
+.presta_slider ul {position: relative; left: 0; width:auto; overflow: hidden; z-index:1;}
+#presta_slider  li {float:left; width:835px; height:300px;}
+#presta_slider .li1 {background:#FFFFFF url(images/1.jpg) no-repeat;}
+#presta_slider .li2 {background:#FFFFFF url(images/2.jpg) no-repeat;}
+#presta_slider .li3 {background:#FFFFFF url(images/3.jpg) no-repeat;}
+#presta_slider span {background:transparent; text-transform:uppercase; color:#d6ae3d; margin-top:2em; padding:1em 0 0 1.7em; background:url('more.png') 0px 7px no-repeat}
+#presta_slider p {width:800px; margin-top:18em; background:url('transparent_bg.png'); padding:1.5em 6em 1.5em 1.5em}
+#presta_slider p a {color:#CCC; font-size:11px; text-align:left; width:830px;}
+.presta_slider {position: relative; overflow: hidden}
+.presta_slider .back {position: absolute; top: 0; left: 0; z-index: 2}
+.presta_slider .back a,
+.presta_slider .next a {display: none; outline: none}
+.presta_slider .next {position: absolute; top: 0; right: 0; z-index: 2}
+
+/*	Theme CreativeShop */
+.creatifShop .back {width: auto; height: auto; background: url('prev_bg.gif') no-repeat; }
+.creatifShop .next {width: auto; height: auto; left: 540px; background: url('next_bg.gif') no-repeat}
+.creatifShop .next a {position: absolute; top:10px; right:15px; width:150px; height:40px; line-height:30px; background: url('next.png') no-repeat top right}
+.creatifShop .next a:hover {position: absolute; top:10px; right:15px; width:150px; height:40px; line-height:30px; background: url('next_hover.png') no-repeat top right}
+.creatifShop .back a {position:absolute; top:10px; left:10px; width:50px; height:40px; line-height:30px; background: url('prev.png') no-repeat}
+.creatifShop .back a:hover {position:absolute; top:10px; left:10px; width:150px; height:40px; line-height:30px; background: url('prev_hover.png') no-repeat}

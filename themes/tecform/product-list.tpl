@@ -24,6 +24,8 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
+PRODUCT_LIST
+
 {if isset($products)}
 	<!-- Products list -->
 	<ul id="product_list" class="clear">

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2011-09-12 12:00:30
+<?php /* Smarty version Smarty-3.0.7, created on 2011-09-13 01:35:04
          compiled from "/srv/Ignas/Presta/prestashop/modules/blockcart/blockcart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15878935784e6dca2ead94e7-07595861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15341693534e6e8918e95ca1-24053040%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '43358fbffe20119ece13802091f10c280ef98143' => 
     array (
       0 => '/srv/Ignas/Presta/prestashop/modules/blockcart/blockcart.tpl',
-      1 => 1306134704,
+      1 => 1315836055,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15878935784e6dca2ead94e7-07595861',
+  'nocache_hash' => '15341693534e6e8918e95ca1-24053040',
   'function' => 
   array (
   ),
